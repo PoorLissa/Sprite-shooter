@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj __UDibSprite.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi cxLibraryVCLC6.bpi dxThemeC6.bpi 
+      dxGDIPlusC6.bpi dxCoreC6.bpi cxEditorsVCLC6.bpi cxDataC6.bpi 
+      cxExtEditorsVCLC6.bpi dxEdtrC6.bpi dxComnC6.bpi dxElibC6.bpi dxDBEdC6.bpi 
+      dxDockingC6.bpi dxsbC6.bpi dxBarC6.bpi dxBarDBNavC6.bpi 
+      cxBarEditItemC6.bpi dxBarExtDBItemsC6.bpi dxBarExtItemsC6.bpi 
+      dxRibbonC6.bpi dxLayoutControlC6.bpi dxLayoutControlcxEditAdaptersC6.bpi 
+      dxLayoutControldxEditAdaptersC6.bpi cxSpreadSheetVCLC6.bpi EQTLC6.bpi 
+      ECQDBCC6.bpi EQDBTLC6.bpi cxExportVCLC6.bpi cxTreeListVCLC6.bpi 
+      EQGridC6.bpi dxGrEdC6.bpi dxExELC6.bpi cxPageControlVCLC6.bpi cxGridC6.bpi 
+      cxVerticalGridVCLC6.bpi dxFlowChartC6.bpi dxOrgCC6.bpi dxDBOrC6.bpi 
+      dxMasterViewC6.bpi dxmdsC6.bpi dxdbtrC6.bpi dxtrmdC6.bpi dxPSCorec6.bpi 
+      dxPSLnksC6.bpi dxPScxCommonC6.bpi dxPScxExtCommonC6.bpi dxPScxPCProdC6.bpi 
+      dxPScxSSLnkc6.bpi dxPScxTLLnkC6.bpi dxPScxVGridLnkC6.bpi 
+      dxPSTeeChartC6.bpi dxPSDBTeeChartC6.bpi dxPSdxDBTVLnkC6.bpi 
+      dxPSdxFCLnkC6.bpi dxPSdxLCLnkC6.bpi dxPSdxMVLnkC6.bpi dxPSdxOCLnkC6.bpi 
+      dxPSdxDBOCLnkC6.bpi dxPSTLLnkC6.bpi dxPSdxDBTLLnkC6.bpi 
+      dxPSdxDBCtrlLnkC6.bpi dxPSdxInsLnkC6.bpi dxInsC6.bpi dxPSdxOILnkC6.bpi 
+      dxObjInsC6.bpi dxPSdxDBGrLnkC6.bpi dxPScxGrid6Lnkc6.bpi dxExRwC6.bpi 
+      fs6.bpi fsDB6.bpi fsBDE6.bpi fsADO6.bpi fsIBX6.bpi fsTee6.bpi frx6.bpi 
+      frxDB6.bpi frxADO6.bpi frxBDE6.bpi frxTee6.bpi frxe6.bpi EhLibB60.bpi 
+      rxctl6.bpi rxdb6.bpi rxbde6.bpi vclFlexCompressb6.bpi acntBCB6_R.bpi 
+      frxIBX6.bpi frxDBX6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;&quot;C:\_maxx\projects\021 - sprite shooter&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;&quot;C:\_maxx\projects\021 - sprite shooter&quot;;$(BCB)\Projects\Lib;&quot;C:\CBuilder6\Source\Developer Express Inc\Library\CBuilder6&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot; 
+      -I&quot;C:\_maxx\projects\021 - sprite shooter&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="__UDibSprite.cpp" FORMNAME="" UNITNAME="__UDibSprite" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
